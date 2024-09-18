@@ -4,8 +4,8 @@ interface Pages {
   accounts: string[];
   status: string;
   details?: {
-    createAt: string;
-    updateAt: string;
+    createAt: Date;
+    updateAt: Date;
   };
 }
 
